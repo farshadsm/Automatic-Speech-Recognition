@@ -1,2 +1,3 @@
 # Automatic-Speech-Recognition
-This repo contains an end-to-end automatic speech recognition (ASR) pipeline. The pipeline gets raw audio as input, extracts its feature vectors, runs them through a deep neural network and returns a predicted transcription of the spoken words in the audio. 
+This repo contains an end-to-end Automatic Speech Recognition (ASR) pipeline. The pipeline gets raw audio as input, extracts its feature vectors, runs them through a deep neural network and returns a predicted transcription of the spoken words in the audio. 
+I have used a subset of [LibriSpeech](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf) dataset to train and evaluate the ASR pipeline. LibriSpeech is a large corpus of English-read speech, designed for training and evaluating models for ASR.  The dataset contains 1000 hours of speech derived from audiobooks. The full dataset is provided [online](http://www.openslr.org/12/).
